@@ -1,32 +1,32 @@
 body {
     display: grid;
     grid-template-areas: 
-            a,
-            b,
-            c,;
+            "a"
+            "b"
+            "c";
 }
 .header-container {
-    grid-area: a;
+    grid-area: "a";
     height: 33%;
     margin: auto;
     padding: auto;
 }
 
 .main-container {
-    grid-area: b;
+    grid-area: "b";
     height: 33%;
     margin: auto;
     padding: auto;
 }
 
 .footer-container {
-    grid-area: c;
+    grid-area: "c";
     height: 33%;
     margin: auto;
     padding: auto;
 }
 #logo {
-    padding: 20px;
+    padding:
 }
 
 #search {
