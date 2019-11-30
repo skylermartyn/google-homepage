@@ -47,4 +47,14 @@ body {
 #search {
     font-family: system-ui, BlinkMacSystemFont, 'Roboto', arial, sans-serif;
     border-radius: 10px;
+    width: 500px;
+    height: 30px;
+    background-image: url('https://www.clipartwiki.com/clipimg/full/11-119804_magnifying-glass-png-search-icon-transparent-magnifying-glass.png');
+    background-size: 25px auto;
+    background-repeat: no-repeat;
+    background-position: 10px 3px;
+}
+
+::placeholder {
+    background-position-x: 30px;
 }
