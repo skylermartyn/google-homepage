@@ -8,22 +8,25 @@ body {
 .header-container {
     grid-area: a;
     height: 33%;
+    margin: auto;
+    padding: auto;
 }
 
 .main-container {
     grid-area: b;
     height: 33%;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    padding: auto;
 }
 
 .footer-container {
-    grid-area: b;
+    grid-area: c;
     height: 33%;
+    margin: auto;
+    padding: auto;
 }
 #logo {
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
 }
 
 #search {
