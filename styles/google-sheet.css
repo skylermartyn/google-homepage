@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-areas: 
+            a b a,
+            a b a,
+            a b a;
+}
+
+#logo {
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    font-family: system-ui, BlinkMacSystemFont, 'Roboto', arial, sans-serif;
+    border-radius: 10px;
+}
+
+.container {
+    grid-area: a;
+    justify-content: center;
+    align-items: center;
+}
