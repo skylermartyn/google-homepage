@@ -1,11 +1,26 @@
 body {
     display: grid;
     grid-template-areas: 
-            a b a,
-            a b a,
-            a b a;
+            a,
+            b,
+            c,;
+}
+.header-container {
+    grid-area: a;
+    height: 33%;
 }
 
+.main-container {
+    grid-area: b;
+    height: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    grid-area: b;
+    height: 33%;
+}
 #logo {
     justify-content: center;
     align-items: center;
@@ -14,10 +29,4 @@ body {
 #search {
     font-family: system-ui, BlinkMacSystemFont, 'Roboto', arial, sans-serif;
     border-radius: 10px;
-}
-
-.container {
-    grid-area: a;
-    justify-content: center;
-    align-items: center;
 }
