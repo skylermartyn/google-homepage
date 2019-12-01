@@ -22,12 +22,11 @@ body {
 }
 
 .main-container {
-    display: grid;
+    text-align: center;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     height: 100%;
-    margin: 20px;
-    padding: auto;
+    width: 100%;
 }
 
 .footer-container {
@@ -46,21 +45,21 @@ body {
 #fakesearch {
     border-color: white;
     border-radius: 20px;
-    box-shadow: 2px 2px 8px 3px grey;
-    width: 600px;
+    box-shadow: 2px 2px 8px 3px rgb(170, 169, 169);
+    width: 500px;
     height: 30px;
     background-image: url('https://www.clipartwiki.com/clipimg/full/11-119804_magnifying-glass-png-search-icon-transparent-magnifying-glass.png');
     background-size: 18px auto;
     background-repeat: no-repeat;
-    background-position: 5px;
-    align-self: center;
+    background-position: 10px;
+    display: inline-block;
 }
 #search {
     font-family: system-ui, BlinkMacSystemFont, 'Roboto', arial, sans-serif;
     border: none;
-    width: 470px;
+    width: 450px;
     height: 26px;
-    position: absolute;
-    margin-left: 30px;
-
+    margin-left: 15px;
+    margin-top: 1px;
+    outline: none;
 }
